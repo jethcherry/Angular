@@ -10,9 +10,9 @@ import { Comment } from '../Models/commnets';
 })
 export class TwitterServiceService {
 
-  private     userUrl = 'https://jsonplaceholder.typicode.com/users'
-  private     postUrl = 'https://jsonplaceholder.typicode.com/posts'
-  private     commentUrl = 'https://jsonplaceholder.typicode.com/comments'
+  private readonly   userUrl = 'https://jsonplaceholder.typicode.com/users'
+  private  readonly postUrl = 'https://jsonplaceholder.typicode.com/posts'
+  private  readonly commentUrl = 'https://jsonplaceholder.typicode.com/comments'
 
   constructor(private http:HttpClient) { }
 

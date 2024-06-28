@@ -15,6 +15,7 @@ import { CommentsComponent } from './Components/comments/comments.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+  title='Angular'
 
 
  
