@@ -1,0 +1,13 @@
+
+<header>
+    <nav>
+      <a >Twitter Clone</a>
+      <div class="search-section">
+        <label for="userSelect">Search</label>
+        <select id="userSelect" (change)="onSelect($event)">
+          <option *ngFor="let user of users" [value]="user.id">{{ user.name }}</option>
+        </select>
+      </div>
+    </nav>
+  </header>
+  
